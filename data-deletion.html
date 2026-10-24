@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How to revoke Instagram access and request removal of data for the current MVP.">
+  <title>Data Deletion | AI Social Media Copilot</title>
+  <style>
+    :root{color-scheme:light;--ink:#252238;--muted:#777487;--line:#eeedf3;--purple:#7656d9;--bg:#faf9fc}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(100% - 32px,1000px);margin:auto}.header{min-height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;color:var(--ink);font-size:14px;font-weight:750;text-decoration:none}.mark{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:#f1ecff;color:var(--purple);font-size:20px}.nav,.footer nav{display:flex;flex-wrap:wrap;gap:18px}.nav a,.footer a{color:var(--muted);font-size:13px;text-decoration:none}.nav a:hover,.footer a:hover{color:var(--purple)}.card{max-width:820px;margin:42px auto 54px;padding:clamp(24px,5vw,54px);background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 40px #30204d08}.eyebrow{color:#8870ce;font-size:10px;font-weight:750;letter-spacing:1.2px}.card h1{margin:12px 0 8px;font-size:clamp(30px,5vw,42px);line-height:1.15;letter-spacing:-1.4px}.intro{max-width:620px;margin:0;color:var(--muted);font-size:15px}.updated{margin:20px 0 30px;color:#aaa6b4;font-size:11px}.content{color:#59566a;font-size:14px}.content section{margin:28px 0 0}.content h2{margin:0 0 9px;color:var(--ink);font-size:17px;letter-spacing:-.25px}.content p{margin:9px 0}.content ul,.content ol{padding-left:22px;margin:10px 0}.content li{padding-left:3px;margin:6px 0}.content strong{color:#39364b}.content code{padding:2px 5px;border-radius:4px;background:#f5f3f8;color:#5d4a94;font-size:.9em}.note{margin-top:34px;padding:14px 16px;border:1px solid #eee9f8;border-radius:9px;background:#faf8ff;color:var(--muted);font-size:12px;line-height:1.6}.footer{min-height:68px;border-top:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:16px;color:#aaa6b4;font-size:12px}@media(max-width:600px){.header{align-items:flex-start;flex-direction:column;justify-content:center;padding:13px 0;gap:11px}.nav{gap:14px}.nav a,.footer a{font-size:12px}.card{margin:22px auto 30px;padding:23px 19px;border-radius:12px}.intro{font-size:14px}.content{font-size:13px}.footer{align-items:flex-start;flex-direction:column;justify-content:center;padding:16px 0;gap:10px}.footer nav{gap:14px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header"><a class="brand" href="index.html"><span class="mark" aria-hidden="true">✳</span><span>AI Social Media Copilot</span></a><nav class="nav" aria-label="Legal pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="data-deletion.html">Data deletion</a></nav></header>
+    <main class="card">
+      <div class="eyebrow">AI SOCIAL MEDIA COPILOT · EARLY ACCESS</div>
+      <h1>Data deletion</h1>
+      <p class="intro">How to disconnect Instagram and request removal of information handled by the current MVP.</p>
+      <p class="updated">Last updated October 24, 2026</p>
+      <div class="content">
+        <section><h2>Disconnect the Instagram account</h2>
+          <ol>
+            <li>Open Instagram and go to <strong>Settings and activity</strong>.</li>
+            <li>Find <strong>Website permissions</strong>, then open <strong>Apps and websites</strong>. Menu names can vary by app version.</li>
+            <li>Find AI Social Media Copilot in the active apps list and remove its access.</li>
+          </ol>
+          <p>Removing access prevents the app from continuing to use that authorization, subject to Meta’s handling of revocation. You can also stop using the dashboard.</p>
+        </section>
+        <section><h2>Request deletion from the app operator</h2>
+          <p>The current MVP has no database and no automated deletion workflow or in-app request form. To request removal of the server-side Instagram access token or ask the operator to check for information associated with your use, contact the person or operator who gave you access to the app.</p>
+          <ol>
+            <li>State that you are requesting deletion or removal of your Instagram connection.</li>
+            <li>Include your Instagram username so the operator can identify the connection.</li>
+            <li>Do not send your Instagram password, access token, or other credentials.</li>
+          </ol>
+          <p>The operator must remove the token from the server environment manually. This page does not claim that such removal is automatic. Since the MVP does not use a database for Instagram data, there is no app database record to delete; temporary runtime or hosting logs may depend on the environment used to run the app.</p>
+        </section>
+        <section><h2>Where to send the request</h2>
+          <p>This project does not currently list a dedicated support email or legal entity. Use the same contact channel through which you received access to the app. If you are running a local copy yourself, remove the <code>INSTAGRAM_ACCESS_TOKEN</code> value from your local server environment and restart the app.</p>
+        </section>
+      </div>
+      <aside class="note">This page describes the current MVP. The product may change as it develops; material changes to this page will be reflected here.</aside>
+    </main>
+    <footer class="footer"><span>AI Social Media Copilot</span><nav aria-label="Footer legal pages"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="data-deletion.html">Data deletion</a></nav></footer>
+  </div>
+</body>
+</html>
